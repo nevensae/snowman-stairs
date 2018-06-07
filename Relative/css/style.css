@@ -7,8 +7,41 @@ body {
 	width: 600px;
 	border: 1px solid black;
 	margin: 0 auto;
+	overflow: hidden;
+	
 }
 
 .box .snowman {
 	font-size: 40px;
+}
+
+.stairs {
+	background-color: black;
+	width: 30px;
+	height: 10px;
+	position: relative;
+}
+
+.stairs:nth-of-type(2) {
+	left: 30px;
+	top: 60px;
+	background-color: black;
+}
+
+.stairs:nth-of-type(3) {
+	left: 60px;
+	top: 80px;
+	background-color: black;
+}
+
+.stairs:nth-of-type(4) {
+	left: 90px;
+	top: 100px;
+	background-color: black;
+}
+
+.stairs:nth-of-type(5) {
+	left: 120px;
+	top: 120px;
+	background-color: black;
 }
